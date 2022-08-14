@@ -1,0 +1,56 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Rajdhani:wght@500&display=swap" rel="stylesheet">);
+
+
+body {
+    font-family: Aboreto, sans-serif;
+    font-weight: 40%;
+}
+
+/* headings and logo  */
+
+.header {
+    box-sizing: border-box
+    padding-bottom: 8px;
+}
+
+#logo {
+   text-align: center;
+   font-family: Rajdhani, sans-serif;
+    text-transform: uppercase;
+    font-size: 400%;
+    text-decoration: underline;
+    color: #000000;
+}
+
+
+/* Rules */
+
+#rules {
+    box-sizing: border-box;
+    width: 75%;
+    height: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 4px;
+}
+
+#rules h3 {
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-size: 175%;
+}
+
+#rules li {
+    text-align: center;
+    font-weight: 200;
+    color: #000000;
+    list-style: none;
+    font-size: 150%;
+}
+
+
+/* Game Layout */
+
