@@ -63,12 +63,48 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
+    display: block;
+}
+
+.btn {
+    border-radius: 50%;
+    height: 65%;
+    width: 28%;
+}
+
+#spock1 {
+    background: url('../images/apple-touch-icon.png') no-repeat center center;
+    background-size: cover;
+    background-color: #00FFFF;
+}
+
+#rock1 {
+    background: url('../images/rock\ apple-touch-icon.png') no-repeat center center;
+    background-color: #ffef00;
+}
+
+#paper1 {
+    background: url('../images/paper\ apple-touch-icon.png') no-repeat center center;
+    background-color: #e0218a;
+}
+
+#scissors1 {
+    background: url('../images/scissors\ apple-touch-icon.png') no-repeat center center;
+    background-color: #FF8624;
+}
+
+/* footer */
+
+footer {
+    margin-top: 50px;
+    height: 150px;
 }
 
 .score-area {
     margin: 5px auto;
     width: 60%;
     font-size: 1.2rem;
+    display: block;
 }
 
 .score-area p {
