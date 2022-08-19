@@ -25,6 +25,40 @@ HOMEPAGE
  ## Color scheme ##
 * Primary colors were used on the buttons to enhance the fun look.
 
+## Wireframes ##
+<img src="markdown-demo/WireframeSpock.png">
+
+## Technologies
+
+### Languages used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML5) - Add content and formatting to web page.
+
+- [CSS](https://en.wikipedia.org/wiki/CSS) - Add styling and colours to web page.
+
+- [JavaScript] (https://en.wikipedia.org/wiki/JavaScript) - Add interactive features to web page.
+
+### Frameworks, Libraries and Programs Used
+
+- [Gitpod](https://gitpod.io/) - web-based editor optimised for debugging, testing, syntax highlighting and extension support
+
+- [Git](https://git-scm.com/) - used to allow for tracking of any changes in the code and for the version control.
+
+- [Github](https://github.com/) - used to host the project files and host webpage onto the internet
+
+- [Fontawesome](https://fontawesome.com/) - to insert icons in the website to make site more visually appealing and easy to navigate.
+
+- [Google Fonts](https://fonts.google.com/) - used to import fonts in the style.css stylesheet.
+
+- [Favicon] (https://favicon.io/) - to insert icons in the website to make site more visually appealing.
+
+## Testing
+
+ ## Lighthouse
+
+  ## Test cases
+ ### Index Page
+
 ## Responsiveness
  [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
  
