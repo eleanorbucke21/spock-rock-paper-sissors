@@ -10,7 +10,7 @@ HOMEPAGE
 
 # Features #
 ## Navigation ##
-* The navigation is in a font that is modern and a color that contrasts with the background.
+* The navigation is in a font that is fun looking and a color that contrasts with the background.
 * The navigation clearly tells the user the name of the gamme and makes the different sections of information easy to find.
 ## The Header ## 
 * The header explains the name of the game.
