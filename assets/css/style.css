@@ -80,12 +80,17 @@ body {
 
 #rock1 {
     background: url('../images/rock\ apple-touch-icon.png') no-repeat center center;
-    background-color: #ffef00;
+    background-color: #76B947;
 }
 
 #paper1 {
     background: url('../images/paper\ apple-touch-icon.png') no-repeat center center;
     background-color: #e0218a;
+}
+
+#lizard1 {
+    background: url('../images/lizard\ apple-touch-icon.png') no-repeat center center;
+    background-color: #ffef00;
 }
 
 #scissors1 {
