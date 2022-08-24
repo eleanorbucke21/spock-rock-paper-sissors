@@ -43,14 +43,22 @@ body {
     font-size: 175%;
 }
 
-#rules li {
+#rules ol {
+    display: inline;
     text-align: center;
     font-weight: 200;
     color: #000000;
     list-style: none;
-    font-size: 150%;
+    font-size: 20px;
 }
 
+/* Video */
+
+#video {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Game Layout */
 
@@ -68,33 +76,38 @@ body {
 
 .btn {
     border-radius: 50%;
-    height: 65%;
+    height: 20%;
     width: 28%;
+    display: block;
 }
 
 #spock1 {
     background: url('../images/apple-touch-icon.png') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     background-color: #00FFFF;
 }
 
 #rock1 {
     background: url('../images/rock\ apple-touch-icon.png') no-repeat center center;
+    background-size: contain;
     background-color: #76B947;
 }
 
 #paper1 {
     background: url('../images/paper\ apple-touch-icon.png') no-repeat center center;
+    background-size: contain;
     background-color: #e0218a;
 }
 
 #lizard1 {
     background: url('../images/lizard\ apple-touch-icon.png') no-repeat center center;
+    background-size: contain;
     background-color: #ffef00;
 }
 
 #scissors1 {
     background: url('../images/scissors\ apple-touch-icon.png') no-repeat center center;
+    background-size: contain;
     background-color: #FF8624;
 }
 
