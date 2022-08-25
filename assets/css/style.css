@@ -1,4 +1,4 @@
-@import url(<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Rajdhani:wght@500&display=swap" rel="stylesheet">);
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Russo+One&display=swap');
 
 * {
     margin: 0;
@@ -8,8 +8,14 @@
 }
 
 body {
-    font-family: Aboreto, sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-weight: 40%;
+    background-image: linear-gradient(
+        to right,
+        rgba(162, 225, 219),
+        rgba(85, 203, 205)
+    );
+
 }
 
 /* headings and logo  */
@@ -21,11 +27,11 @@ body {
 
 #logo {
    text-align: center;
-   font-family: Rajdhani, sans-serif;
+   font-family: 'Acme', sans-serif;
     text-transform: uppercase;
     font-size: 400%;
     text-decoration: underline;
-    color: #000000;
+    color: rgba(243, 149, 98);
 }
 
 
@@ -33,6 +39,7 @@ body {
 
 #menu {
     font-size: 110%;
+    color: rgba(243, 149, 98);
 }
 
 #menu,
@@ -57,18 +64,18 @@ body {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid rgba(243, 149, 98);
 }
 
 .active {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid rgba(243, 149, 98);
 }
 
 /* Rules */
 
 #rules {
     box-sizing: border-box;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(243, 149, 98);
     border-radius: 12px;
     width: 75%;
     height: 150%;
@@ -82,7 +89,7 @@ body {
     text-align: center;
     font-weight: 200;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: rgba(255,255,255);
     text-decoration: underline;
     font-size: 175%;
 }
@@ -91,7 +98,7 @@ body {
     display: inline;
     text-align: center;
     font-weight: 200;
-    color: #000000;
+    color: rgba(255,255,255);
     list-style: none;
     font-size: 20px;
 }
@@ -102,7 +109,7 @@ body {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    
+    border: 4px solid rgba(255,255,255);
 }
 
 #video iframe {
@@ -125,21 +132,33 @@ body {
 }
 
 #col-1 {
+    border: 4px solid rgba(255,255,255);
+    border-radius: 5px;
     position: absolute;
     width: 50%;
     left: 0;
     height: 100%;
-    background-color: #282828;
-    z-index: 1010101010
+    z-index: 1010101010;
+    background-image: linear-gradient(
+        to right,
+        rgba(245, 129, 66),
+        rgba(225, 0, 127)
+    );
   }
   
   #col-2 {
+    border: 4px solid rgba(255,255,255);
+    border-radius: 5px;
     position: absolute;
     width: 50%;
     left: 50%;
     height: 100%;
-    background-color: #0080ff;
-    z-index: 1010101010
+    z-index: 1010101010;
+    background-image: linear-gradient(
+        to right,
+        rgba(225, 0, 127),
+        rgba(245, 129, 66)
+    );
   }
 
 .btn {
@@ -189,7 +208,7 @@ body {
     width: 60%;
     font-size: 1.2rem;
     display: block;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(243, 149, 98);
     border-radius: 12px;
 }
 
@@ -197,6 +216,7 @@ body {
     text-align: center;
     font-size: 175%;
     font-weight: 300;
+    color: rgba(255,255,255);
 }
 
 /* media queries */
