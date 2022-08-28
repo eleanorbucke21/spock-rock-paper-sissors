@@ -39,7 +39,8 @@ body {
     position: relative;
     display: inline-block;
     cursor: pointer;
-    color: ;
+    color: rgba(243, 149, 98);
+    text-decoration: underline;
   }
 
   .popup .popuptext {
@@ -52,7 +53,7 @@ body {
     padding: 8px 0;
     position: absolute;
     z-index: 1;
-    bottom: 125%;
+    top: 110%;
     left: 50%;
     margin-left: -80px;
   }
