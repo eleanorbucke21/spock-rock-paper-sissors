@@ -34,88 +34,34 @@ body {
     color: rgba(243, 149, 98);
 }
 
+/* Pop Up Rules */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: ;
+  }
 
-/* navigation links */
-
-#menu {
-    font-size: 110%;
-    color: rgba(243, 149, 98);
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu ul {
-    width: 300px;
-    float: right;
-}
-
-#menu li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid rgba(243, 149, 98);
-}
-
-.active {
-    border-bottom: 2px solid rgba(243, 149, 98);
-}
-
-/* Rules */
-
-#rules {
-    box-sizing: border-box;
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
     background-color: rgba(243, 149, 98);
-    border-radius: 12px;
-    width: 75%;
-    height: 150%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    letter-spacing: 4px;
-}
-
-#rules h3 {
+    color: rgba(225, 225, 255);
     text-align: center;
-    font-weight: 200;
-    text-transform: uppercase;
-    color: rgba(255,255,255);
-    text-decoration: underline;
-    font-size: 175%;
-}
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
 
-#rules ol {
-    display: inline;
-    text-align: center;
-    font-weight: 200;
-    color: rgba(255,255,255);
-    list-style: none;
-    font-size: 20px;
-}
-
-/* Video */
-
-#video {
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    border: 4px solid rgba(255,255,255);
-}
-
-#video iframe {
-    width: 100%;
-    height: auto;
-}
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
 
 /* Game Layout */
 
