@@ -31,12 +31,12 @@ function computerTurn(){
       case 3:
         computer = "Scissors";
         break;
-        case 4:
-            computer = "Spock";
-            break;
-        case 5:
-            computer = "Lizard";
-            break;
+      case 4:
+        computer = "Spock";
+        break;
+      case 5:
+         computer = "Lizard";
+        break;
     }
 }
 
@@ -46,47 +46,47 @@ function checkWinner () {
     }
 
 /* Rock */
-else if (player == 'Rock'){
-    if (computer == 'Paper' || 'Spock'){
-        result = 'You lose!';
+else if (player == "Rock"){
+    if (computer == "Paper" || "Spock"){
+        result = "You lose!";
     } else {
-        result = 'You win!';
+        result = "You win!";
     }
 }
 
 /* Paper */ 
-else if (player == 'Paper'){
-    if (computer == 'Lizard' || 'Scissors'){
-        result = 'You lose!';
+else if (player == "Paper"){
+    if (computer == "Lizard" || "Scissors"){
+        result = "You lose!";
     } else {
-        result = 'You win!';
+        result = "You win!";
     }
 }
 
 /* Scissors */
-    else if (player == 'Scissors'){
-        if (computer == 'Spock' || 'Rock'){
-            result = 'You lose!';
+    else if (player == "Scissors"){
+        if (computer == "Spock" || "Rock"){
+            result = "You lose!";
         } else {
-            result = 'You win!';
+            result = "You win!";
     }
 }
 
 /* Lizard */
-else if (player == 'Lizard'){
-    if (computer == 'Rock' || 'Scissors'){
-        result = 'You Lose!';
+else if (player == "Lizard"){
+    if (computer == "Rock" || "Scissors"){
+        result = "You lose!";
     } else {
-        result = 'You Win!';
+        result = "You win!";
     }
 }
 
 /* Spock */
-else if (player == 'Spock'){
-    if (computer == 'Paper' || 'Lizard'){
-        result = 'You lose!';
+else if (player == "Spock"){
+    if (computer == "Paper" || "Lizard"){
+        result = "You lose!";
     } else {
-        result = 'You win!';
+        result = "You win!";
     }
 }
 }
