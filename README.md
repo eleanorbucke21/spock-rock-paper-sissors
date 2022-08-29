@@ -124,13 +124,22 @@ This website was published using GitHub Pages.
 
 ##Credits
 
-###Tutorials
+##Tutorials
 
-- Tutorial on popup buttons (popup buttons)[https://www.w3schools.com/howto/howto_js_popup.asp]
+- Tutorial on popup buttons [popup Buttons](https://www.w3schools.com/howto/howto_js_popup.asp)
+- Tutorial on Rock, Paper, Scissors [tutorial](https://www.youtube.com/watch?v=n1_vHArDBRA)
+- Tutorial on Rock, Paper, Scissors, Lizard, Spock [tutorial](https://codepen.io/763004/pen/pPGGyP)
 
-###Media
+##Media
+- [favicon]()
+- [Rock](https://favicon.io/emoji-favicons/rock/)
+- [Paper](https://favicon.io/emoji-favicons/newspaper/)
+- [Scissors](https://favicon.io/emoji-favicons/scissors/)
+- [Lizard](https://favicon.io/emoji-favicons/lizard/)
+- [Spock](https://images.app.goo.gl/TCa5tv3ZtSzBai3S9)
 
-###Content
--[Aboreto - Google Font] (https://fonts.google.com/specimen/Aboreto?query=Abore)
 
-- [Rajdhani - Google Font] (https://fonts.google.com/specimen/Rajdhani?query=raj)
+##Content
+- [Russo One - Google Font](https://fonts.google.com/specimen/Russo+One?query=Russo+)
+
+- [Acme - Google Font](https://fonts.google.com/specimen/Acme?query=acme)
