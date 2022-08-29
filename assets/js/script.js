@@ -17,7 +17,7 @@ let result;
 
 choiceBtns.forEach(button => button.addEventListener("click", () => {
 
-  player = button.textContent;
+  player = button.id;
   computerTurn();
   playerText.textContent = `Player: ${player}`;
   computerText.textContent = `Computer: ${computer}`;
@@ -56,13 +56,13 @@ function checkWinner() {
 
   else if (player === "Rock") {
     if (computer === "Paper") {
-      return "Paper covers rock You Lose :\(";
+      return "Paper covers rock You Lose 😔";
     } else if (computer === "Scissors") {
       return "Rock crushes scissors You Win! 😊";
     } else if (computer === "Lizard") {
       return "Rock crushes lizard You Win! 😊";
     } else {
-      return "Spock vaporizes rock You Lose :\(";
+      return "Spock vaporizes rock You Lose 😔";
     }
 
 //Paper
@@ -71,9 +71,9 @@ function checkWinner() {
     if (computer === "Rock") {
       return "Paper covers rock You Win! 😊";
     } else if (computer === "Scissors") {
-      return "Scissors cut paper You Lose :\(";
+      return "Scissors cut paper You Lose 😔";
     } else if (computer === "Lizard") {
-      return "Lizard eats paper You Lose :\(";
+      return "Lizard eats paper You Lose 😔";
     } else {
       return "Paper disproves spock You Win! 😊";
     }
@@ -82,24 +82,24 @@ function checkWinner() {
 
   } else if (player === "Scissors") {
     if (computer === "Rock") {
-      return "Rock crushes scissors You Lose :\(";
+      return "Rock crushes scissors You Lose 😔";
     } else if (computer === "Paper") {
       return "Scissors cut paper You Win! 😊";
     } else if (computer === "Lizard") {
       return "Scissors decapitate lizard You Win! 😊";
     } else {
-      return "Spock smashes scissors You Lose :\(";
+      return "Spock smashes scissors You Lose 😔";
     }
 
 //LIZARD
 
   } else if (player=== "Lizard") {
     if (computer === "Rock") {
-      return "Rock crushes lizard You Lose :\(";
+      return "Rock crushes lizard You Lose 😔";
     } else if (computer === "Paper") {
       return "lizard eats paper You Win! 😊";
     } else if (computer === "Scissors") {
-      return "scissors decapitate lizard You Lose :\(";
+      return "scissors decapitate lizard You Lose 😔";
     } else {
       return "lizard poisons spock You Win! 😊";
     }
@@ -110,11 +110,11 @@ function checkWinner() {
     if (computer === "Rock") {
       return "Spock vaporizes rock You Win! 😊";
     } else if (computer === "Paper") {
-      return "Paper disproves spock You Lose :\(";
+      return "Paper disproves spock You Lose 😔";
     } else if (computer === "Scissors") {
       return "Spock smashes scissors You Win! 😊 ";
     } else {
-      return "Lizard poisons spock You Lose :\(";
+      return "Lizard poisons spock You Lose 😔";
     }
   }
 };
