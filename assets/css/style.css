@@ -94,14 +94,42 @@ body {
 
 .btn {
     border-radius: 50%;
+    border: 4px solid rgba(225, 225, 255);
     height: 25%;
     width: 12.5%;
     display: initial;
-    margin-bottom: 7%;
     margin: 3%;
 }
 
+#Rock {
+    background: url('../images/rock\ apple-touch-icon.png') no-repeat center center;
+    background-size: contain;
+    background-color: rgba(118, 185, 71);
+}
 
+#Paper {
+    background: url('../images/paper\ apple-touch-icon.png') no-repeat center center;
+    background-size: contain;
+    background-color: rgba(224, 33, 138);
+}
+
+#Scissors {
+    background: url('../images/scissors\ apple-touch-icon.png') no-repeat center center;
+    background-size: contain;
+    background-color: rgba(255, 134, 36);
+}
+
+#Lizard {
+    background: url('../images/lizard\ apple-touch-icon.png') no-repeat center center;
+    background-size: contain;
+    background-color:rgba(255, 239, 0);
+}
+
+#Spock {
+    background: url('../images/apple-touch-icon.png') no-repeat center center;
+    background-size: contain;
+    background-color:rgba(0, 255, 255);
+}
 
 /* media queries */
 
