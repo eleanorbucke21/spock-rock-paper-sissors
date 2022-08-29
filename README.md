@@ -41,7 +41,7 @@ HOMEPAGE
 
 - [CSS](https://en.wikipedia.org/wiki/CSS) - Add styling and colours to web page.
 
-- [JavaScript] (https://en.wikipedia.org/wiki/JavaScript) - Add interactive features to web page.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Add interactive features to web page.
 
 ### Frameworks, Libraries and Programs Used
 
@@ -55,7 +55,7 @@ HOMEPAGE
 
 - [Google Fonts](https://fonts.google.com/) - used to import fonts in the style.css stylesheet.
 
-- [Favicon] (https://favicon.io/) - to insert icons in the website to make site more visually appealing.
+- [Favicon](https://favicon.io/) - to insert icons in the website to make site more visually appealing.
 
 ## Testing
 
