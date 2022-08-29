@@ -66,19 +66,19 @@ function checkWinner() {
   else if (player === "Rock") {
     if (computer === "Paper") {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Paper covers rock You Lose 😔";
     } else if (computer === "Scissors") {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Rock crushes scissors You Win! 😊";
     } else if (computer === "Lizard") {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Rock crushes lizard You Win! 😊";
     } else {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Spock vaporizes rock You Lose 😔";
     }
 
@@ -87,19 +87,19 @@ function checkWinner() {
   } else if (player === "Paper") {
     if (computer === "Rock") {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Paper covers rock You Win! 😊";
     } else if (computer === "Scissors") {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Scissors cut paper You Lose 😔";
     } else if (computer === "Lizard") {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Lizard eats paper You Lose 😔";
     } else {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Paper disproves spock You Win! 😊";
     }
 
@@ -108,19 +108,19 @@ function checkWinner() {
   } else if (player === "Scissors") {
     if (computer === "Rock") {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Rock crushes scissors You Lose 😔";
     } else if (computer === "Paper") {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Scissors cut paper You Win! 😊";
     } else if (computer === "Lizard") {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Scissors decapitate lizard You Win! 😊";
     } else {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Spock smashes scissors You Lose 😔";
     }
 
@@ -129,19 +129,19 @@ function checkWinner() {
   } else if (player === "Lizard") {
     if (computer === "Rock") {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Rock crushes lizard You Lose 😔";
     } else if (computer === "Paper") {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "lizard eats paper You Win! 😊";
     } else if (computer === "Scissors") {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "scissors decapitate lizard You Lose 😔";
     } else {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "lizard poisons spock You Win! 😊";
     }
 
@@ -150,19 +150,19 @@ function checkWinner() {
   } else if (player === "Spock") {
     if (computer === "Rock") {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Spock vaporizes rock You Win! 😊";
     } else if (computer === "Paper") {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Paper disproves spock You Lose 😔";
     } else if (computer === "Scissors") {
       playerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Spock smashes scissors You Win! 😊 ";
     } else {
       computerScore++;
-      scoreWindow.value = playerScore + " : " + computerScore;
+      scoreWindow.innerText = playerScore + " : " + computerScore;
       return "Lizard poisons spock You Lose 😔";
     }
   }

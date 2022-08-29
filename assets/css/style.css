@@ -90,6 +90,12 @@ body {
     text-align: center;
 }
 
+.scores {
+    color: rgba(255,255,255);
+    text-align: center;
+    font-size: 160%;
+}
+
 /* Buttons in game-area */
 
 .btn {
