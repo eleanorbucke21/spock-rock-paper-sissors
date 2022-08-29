@@ -30,7 +30,8 @@ HOMEPAGE
 * Primary colors were used on the buttons to enhance the fun look.
 
 ## Wireframes ##
-<img src="markdown-demo/WireframeSpock.png">
+<img src="markdown-demo/Computer WireFrame.jpeg">
+<img src="markdown-demo/Phone Wireframe.jpeg">
 
 ## Technologies
 
