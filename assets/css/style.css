@@ -66,6 +66,35 @@ body {
 
 /* Game Layout */
 
+#game-area {
+    box-sizing: border-box;
+    border: 4px solid rgba(255,255,255);
+    color: rgba(255,255,255);
+    background-color: rgba(243, 149, 98);
+    border-radius: 5px;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    display: block;
+}
+
+#game-area h1 {
+    text-align: center;
+}
+
+/* Buttons in game-area */
+
+.btn {
+    border-radius: 50%;
+    height: 15%;
+    width: 45%;
+    display: initial;
+    margin-bottom: 7%;
+}
 
 
 /* media queries */
