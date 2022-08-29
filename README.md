@@ -25,7 +25,7 @@ HOMEPAGE
 
 # Typography and color scheme #
 ## Font ##
-* Aboreto and Rajdhani were used as a font as they give a fun look to the page.
+* Russo one and Acme were used as a font as they give a fun look to the page.
  ## Color scheme ##
 * Primary colors were used on the buttons to enhance the fun look.
 
