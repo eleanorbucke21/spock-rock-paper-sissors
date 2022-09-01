@@ -12,12 +12,18 @@ HOMEPAGE
 * As a user I want to know what the site is about so I know what to expect from it.
 
 
-# Features #
-## Navigation ##
-* The navigation is in a font that is fun looking and a color that contrasts with the background.
-* The navigation clearly tells the user the name of the gamme and makes the different sections of information easy to find.
+# Features #.
 ## The Header ## 
 * The header explains the name of the game.
+
+## Rules ##
+* Rules of the game are contained in a popup that can be pressed any time by the player.
+
+## Buttons ##
+* Each of the buttons contains an image of what the pplayer could play
+
+## Score ##
+* The scores are their to show how many wins and loses the player has. 
 
 ## Future Features ##
 
