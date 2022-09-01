@@ -151,6 +151,7 @@ body {
 
     .popup {
         font-size: 150%;
+        left: 45%;
     }
 
     .btn {
@@ -184,7 +185,7 @@ body {
 
     .popup {
         font-size: 150%;
-        left: -4%;
+        left: 47%;
     }
 
     .popup .popuptext {
