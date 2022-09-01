@@ -10,11 +10,9 @@
 body {
     font-family: 'Russo One', sans-serif;
     font-weight: 40%;
-    background-image: linear-gradient(
-        to right,
-        rgba(162, 225, 219),
-        rgba(85, 203, 205)
-    );
+    background-image: linear-gradient(to right,
+            rgba(162, 225, 219),
+            rgba(85, 203, 205));
 
 }
 
@@ -26,8 +24,8 @@ body {
 }
 
 #logo {
-   text-align: center;
-   font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
     text-transform: uppercase;
     font-size: 400%;
     text-decoration: underline;
@@ -41,15 +39,15 @@ body {
     cursor: pointer;
     color: rgba(243, 149, 98);
     text-decoration: underline;
-    float: right;
-    margin-right: 43%;
-  }
+    left: 38%;
+    font-size: 160%;
+}
 
-  .popup .popuptext {
+.popup .popuptext {
     visibility: hidden;
     width: 160px;
     background-color: rgba(243, 149, 98);
-    border: 4px solid rgba(255,255,255);
+    border: 4px solid rgba(255, 255, 255);
     color: rgba(225, 225, 255);
     text-align: center;
     border-radius: 6px;
@@ -59,21 +57,21 @@ body {
     top: 110%;
     left: 50%;
     margin-left: -80px;
-  }
+}
 
-  .popup .show {
+.popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
-  }
+}
 
 
 /* Game Layout */
 
 #game-area {
     box-sizing: border-box;
-    border: 4px solid rgba(255,255,255);
-    color: rgba(255,255,255);
+    border: 4px solid rgba(255, 255, 255);
+    color: rgba(255, 255, 255);
     background-color: rgba(243, 149, 98);
     border-radius: 5px;
     width: 85%;
@@ -90,8 +88,13 @@ body {
     text-align: center;
 }
 
+#PlayerVsComputer {
+    text-align: center;
+    font-size: 150%;
+}
+
 .scores {
-    color: rgba(255,255,255);
+    color: rgba(255, 255, 255);
     text-align: center;
     font-size: 160%;
 }
@@ -101,7 +104,7 @@ body {
 .btn {
     border-radius: 50%;
     border: 4px solid rgba(225, 225, 255);
-    height: 25%;
+    height: 10%;
     width: 12.5%;
     display: initial;
     margin: 3%;
@@ -128,52 +131,153 @@ body {
 #Lizard {
     background: url('../images/lizard\ apple-touch-icon.png') no-repeat center center;
     background-size: contain;
-    background-color:rgba(255, 239, 0);
+    background-color: rgba(255, 239, 0);
 }
 
 #Spock {
     background: url('../images/apple-touch-icon.png') no-repeat center center;
     background-size: contain;
-    background-color:rgba(0, 255, 255);
+    background-color: rgba(0, 255, 255);
 }
 
 /* media queries */
 
 @media (min-width: 768px) and (max-width : 1200px) {
 
-    #video {
-        box-sizing: border-box;
-        margin-left: 1%;
-        margin-right: 1%;
-        
+    #logo {
+        font-size: 500%;
+
     }
-    
-    #video iframe {
-        width: 100%;
-        height: 100vh;
+
+    .popup {
+        font-size: 150%;
     }
 
     .btn {
         border-radius: 50%;
         height: 14%;
-        width: 19%;
-        display: block;
+        width: 10%;
+        display: inline;
         margin-bottom: 4%;
+        margin: 4.5%;
     }
 
     .center {
         transform: translate(200%, 14%);
     }
+
+    #PlayerVsComputer {
+        text-align: center;
+        font-size: 160%;
+    }
+
+    .scores {
+        font-size: 250%;
+    }
 }
 
 @media (min-width: 1200px) and (max-width : 1600px) {
+
+    #logo {
+        font-size: 500%;
+    }
+
+    .popup {
+        font-size: 150%;
+        left: -4%;
+    }
+
+    .popup .popuptext {
+        width: 300px;
+    }
+
+    .btn {
+        height: 25%;
+        width: 10.5%;
+        max-height: 900px;
+        margin: 4.5%;
+    }
+
+    #PlayerVsComputer {
+        text-align: center;
+        font-size: 180%;
+    }
+
+    .scores {
+        font-size: 250%;
+    }
 
 }
 
 @media (min-width: 1600px) and (max-width : 2560px) {
 
+    #logo {
+        font-size: 600%;
+    }
+
+    .popup {
+        font-size: 200%;
+        left: -4%;
+
+    }
+
+    #game-area {
+        max-width: 2000px;
+        max-height: 900px;
+    }
+
+    #game-area h1 {
+        font-size: 200%;
+    }
+
+    .btn {
+        height: 25%;
+        width: 12.5%;
+    }
+
+    #PlayerVsComputer {
+        text-align: center;
+        font-size: 250%;
+    }
+
+    .scores {
+        font-size: 250%;
+    }
+
 }
 
 @media (min-width: 2560px) and (max-width : 3440px) {
+
+    #logo {
+        font-size: 800%;
+    }
+
+    .popup {
+        font-size: 400%;
+        left: -4%;
+    }
+
+    #game-area {
+        max-width: 2000px;
+        max-height: 900px;
+    }
+
+    #game-area h1 {
+        font-size: 400%;
+    }
+
+    .btn {
+        height: 25%;
+        width: 12.5%;
+    }
+
+    #PlayerVsComputer {
+        text-align: center;
+        font-size: 400%;
+    }
+
+    .scores {
+        font-size: 400%;
+    }
 
 }
