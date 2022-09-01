@@ -70,13 +70,28 @@ HOMEPAGE
     Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements, and to test responsiveness in different screen sizes.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  was used to test for error codes in the CSS.
 * [W3C Markup Validation Serice](https://validator.w3.org/) was used to test for error codes in the HTML.
-*[JSHint](jshint.com) was used to test for error codes in the JavaScript.
+* [JSHint](jshint.com) was used to test for error codes in the JavaScript.
 
 
  ## Lighthouse
-
-  ## Test cases
  ### Index Page
+  <img src="markdown-demo/Lighthouse.jpeg">
+
+  ## Test Cases
+
+  | Input | Output | Pass/Fail |
+|--- | --- | --- |
+|  Clicked on Rules in header when it was closed. | It went opened the Popup. | Pass
+| Clicked on Rules when popup in header when it was open. | It closed the popup | Pass
+| Clicked rock | It played rock | Pass
+| Clicked paper | It played paper | Pass
+| Clicked scissors | It played scissors | Pass
+| Clicked lizard | It played lizard | Pass
+| Clicked spock | It played spock | Pass
+
+
+
+
 
 ## Responsiveness
  [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
