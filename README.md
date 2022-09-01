@@ -1,3 +1,5 @@
+<img src="markdown-demo/MultiDeviceMockup.jpeg"/>
+
 :desktop_computer: [Live Website] (https://eleanorbucke21.github.io/spock-rock-paper-sissors/)
 
 :open_file_folder: [Github Repository] (https://github.com/eleanorbucke21/spock-rock-paper-sissors)
@@ -12,7 +14,7 @@ HOMEPAGE
 * As a user I want to know what the site is about so I know what to expect from it.
 
 
-# Features #.
+# Features ##
 ## The Header ## 
 * The header explains the name of the game.
 
@@ -36,8 +38,8 @@ HOMEPAGE
 * Primary colors were used on the buttons to enhance the fun look.
 
 ## Wireframes ##
-<img src="markdown-demo/Computer WireFrame.jpeg">
-<img src="markdown-demo/Phone Wireframe.jpeg">
+<img src="markdown-demo/Computer WireFrame.jpeg"  width="500" height="400">
+<img src="markdown-demo/Phone Wireframe.jpeg"  width="300" height="500">
 
 ## Technologies
 
@@ -64,6 +66,12 @@ HOMEPAGE
 - [Favicon](https://favicon.io/) - to insert icons in the website to make site more visually appealing.
 
 ## Testing
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements, and to test responsiveness in different screen sizes.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  was used to test for error codes in the CSS.
+* [W3C Markup Validation Serice](https://validator.w3.org/) was used to test for error codes in the HTML.
+*[JSHint](jshint.com) was used to test for error codes in the JavaScript.
+
 
  ## Lighthouse
 
@@ -90,20 +98,20 @@ HOMEPAGE
 
      Browser | Outcome | Pass/Fail 
      --- | --- | ---
-     Google Chrome | No appearance, responsiveness nor functionality issues.| 0
-     Safari | No appearance, responsiveness nor functionality issues. | 0
-     Microsoft Edge | No appearance, responsiveness nor functionality issues. | 0
-     Firefox | No appearance, responsiveness nor functionality issues. | 0
+     Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
+     Safari | No appearance, responsiveness nor functionality issues. | Pass
+     Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
+     Firefox | No appearance, responsiveness nor functionality issues. | Pass
      
  * Device compatibility
 
      Device | Outcome | Pass/Fail
     --- | --- | ---
-    Laptop | No appearance, responsiveness nor functionality issues. | 0
-    ipad mini | No appearance, responsiveness nor functionality issues. | 0
-    Lenovo M1 Tab | No appearance, responsiveness nor functionality issues. | 0
-    Samsung s20 | No appearance, responsiveness nor functionality issues. | 0
-    iphone 12 pro | No appearance, responsiveness nor functionality issues. | 0
+    Laptop | No appearance, responsiveness nor functionality issues. | Pass
+    ipad mini | No appearance, responsiveness nor functionality issues. | Pass
+    Lenovo M1 Tab | No appearance, responsiveness nor functionality issues. | Pass
+    Samsung s20 | No appearance, responsiveness nor functionality issues. | Pass
+    iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
 
 ## Deployment
  
@@ -129,15 +137,15 @@ This website was published using GitHub Pages.
 * Sign in with one of the listed providers and let the workspace start up.
 * Congratulations, you have started your first of many ephemeral developer environments!
 
-##Credits
+## Credits ##
 
-##Tutorials
+## Tutorials
 
 - Tutorial on popup buttons [popup Buttons](https://www.w3schools.com/howto/howto_js_popup.asp)
 - Tutorial on Rock, Paper, Scissors [tutorial](https://www.youtube.com/watch?v=n1_vHArDBRA)
 - Tutorial on Rock, Paper, Scissors, Lizard, Spock [tutorial](https://codepen.io/763004/pen/pPGGyP)
 
-##Media
+## Media
 - [favicon]()
 - [Rock](https://favicon.io/emoji-favicons/rock/)
 - [Paper](https://favicon.io/emoji-favicons/newspaper/)
@@ -146,7 +154,7 @@ This website was published using GitHub Pages.
 - [Spock](https://images.app.goo.gl/TCa5tv3ZtSzBai3S9)
 
 
-##Content
+## Content
 - [Russo One - Google Font](https://fonts.google.com/specimen/Russo+One?query=Russo+)
 
 - [Acme - Google Font](https://fonts.google.com/specimen/Acme?query=acme)
