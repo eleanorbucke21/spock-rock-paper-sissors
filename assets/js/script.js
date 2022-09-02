@@ -141,12 +141,10 @@ function checkWinner() {
       resultMsg =  "Paper disproves spock You Lose 😔";
     } else if (computer === "Scissors") {
       playerScore++;
-      scoreWindow.innerText = playerScore + " : " + computerScore;
-      return "Spock smashes scissors You Win! 😊 ";
+      resultMsg = "Spock smashes scissors You Win! 😊 ";
     } else {
       computerScore++;
-      scoreWindow.innerText = playerScore + " : " + computerScore;
-      return "Lizard poisons spock You Lose 😔";
+      resultMsg = "Lizard poisons spock You Lose 😔";
     }
   }
 
