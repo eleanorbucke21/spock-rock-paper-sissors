@@ -43,7 +43,8 @@ Spock vaporizes Rock <br>
     * [Programmes and Applications Used](#programmes-and-applications-used)
 * [Testing](#testing)
 * [Credits](#credits)
-     * [Media](#media)
+   * [Tutorials](#tutorials)
+   * [Media](#media)
 ---
 # User Experience
 
