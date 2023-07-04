@@ -1,30 +1,73 @@
 <img src="markdown-demo/MultiDeviceMockup.jpeg"/>
 
+--- 
+
+<br>
+
+The game is an expansion on the game Rock, Paper, Scissors made famous by [The Big Bang Theory](https://en.wikipedia.org/wiki/The_Big_Bang_Theory). It is a game against the computer where scores are kept. The rules are as follows : 
+<br>
+Scissors cuts Paper <br>
+Paper covers Rock <br>
+Rock crushes Lizard <br>
+Lizard poisons Spock <br>
+Spock smashes Scissors <br>
+Scissors decapitates Lizard <br>
+Lizard eats Paper <br>
+Paper disproves Spock <br>
+Spock vaporizes Rock <br>
+(and as it always has) Rock crushes Scissors
+
+--- 
+
 :desktop_computer: [Live Website] (https://eleanorbucke21.github.io/spock-rock-paper-sissors/)
 
 :open_file_folder: [Github Repository] (https://github.com/eleanorbucke21/spock-rock-paper-sissors)
 
-## UX 
+---
 
-### User stories
+**TABLE OF CONTENTS**
+* [USER EXPERIENCE](#user-experience)
+* [User Stories](#user-stories)
+* [Features](#features)
+    * [Header](##Header)
+    * [Rules](##Rules)
+    * [Buttons](##Buttons)
+    * [Score](##Score)
+    * [Future Features](#ufuture-featuresu)
+* [Typographyand Color Scheme](#typography-and-color-scheme)
+    * [Font](##Font)
+    * [Color Scheme](##color)
+* [Wireframes](#wireframes)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Programmes and Applications Used](#programmes-and-applications-used)
+* [Testing](#testing)
+* [Credits](#credits)
+     * [Media](#media)
+---
+# User Experience
 
-HOMEPAGE
+### <u>User Stories</u>
+<br>
+
+Index
 
 * As a user I want the page to be easy to navigate.
 * As a user I want to know what the site is about so I know what to expect from it.
-
+* As a user I want to be able to count my score.
+* As a user I want to be able to see the rules.
 
 # Features ##
-## The Header ## 
+## Header
 * The header explains the name of the game.
 
-## Rules ##
+## Rules
 * Rules of the game are contained in a popup that can be pressed any time by the player.
 
-## Buttons ##
+## Buttons
 * Each of the buttons contains an image of what the pplayer could play
 
-## Score ##
+## Score
 * The scores are their to show how many wins and loses the player has. 
 
 ## Future Features ##
@@ -33,16 +76,18 @@ HOMEPAGE
 
 # Typography and color scheme #
 ## Font ##
-* Russo one and Acme were used as a font as they give a fun look to the page.
+* [Russo](https://fonts.google.com/specimen/Russo+One?query=Russo+) and [Acme](https://fonts.google.com/specimen/Acme?query=acme) were used as a font as they give a fun look to the page.
  ## Color scheme ##
 * Primary colors were used on the buttons to enhance the fun look.
 
-## Wireframes ##
-<img src="markdown-demo/Computer WireFrame.jpeg"  width="500" height="400">
-<img src="markdown-demo/Phone Wireframe.jpeg"  width="300" height="500">
+## Wireframes
+|Computer|Mobile |
+| ------------- | ------------- |
+| <img src="markdown-demo/Computer WireFrame.jpeg">| <img src="markdown-demo/Phone Wireframe.jpeg"> |
 
-## Technologies
-
+---
+# Technologies
+---
 ### Languages used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML5) - Add content and formatting to web page.
@@ -51,7 +96,8 @@ HOMEPAGE
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Add interactive features to web page.
 
-### Frameworks, Libraries and Programs Used
+
+### <u>Programmes and Applications Used</u>
 
 - [Gitpod](https://gitpod.io/) - web-based editor optimised for debugging, testing, syntax highlighting and extension support
 
@@ -65,69 +111,15 @@ HOMEPAGE
 
 - [Favicon](https://favicon.io/) - to insert icons in the website to make site more visually appealing.
 
-## Testing
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements, and to test responsiveness in different screen sizes.
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  was used to test for error codes in the CSS.
-* [W3C Markup Validation Serice](https://validator.w3.org/) was used to test for error codes in the HTML.
-* [JSHint](jshint.com) was used to test for error codes in the JavaScript.
+---
+# **TESTING**
+Please refer to [TESTING.md](./TESTING.md) file for:
+* Automated Testing and Validation Results
+* Manual Testing and Results
 
+<br/>
 
- ## Lighthouse
- ### Index Page
-  <img src="markdown-demo/Lighthouse.jpeg">
-
-  ## Test Cases
-
-  | Input | Output | Pass/Fail |
-|--- | --- | --- |
-|  Clicked on Rules in header when it was closed. | It went opened the Popup. | Pass
-| Clicked on Rules when popup in header when it was open. | It closed the popup | Pass
-| Clicked rock | It played rock | Pass
-| Clicked paper | It played paper | Pass
-| Clicked scissors | It played scissors | Pass
-| Clicked lizard | It played lizard | Pass
-| Clicked spock | It played spock | Pass
-
-
-
-
-
-## Responsiveness
- [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
- 
- The site has been tested on various sizes such as those listed below.
- 
- Mobile:
- 375x667 / 360x740 / 412x915 / 414x896
- 
- Tablet:
- 768x1024 / 820x1180 / 912x1368 
- 
- Monitor:
- 1280x1024 / 1600x900 / 2560x1440 / 3440x1440
- 
- ### Manual Testing
-
-* Browser Compatibility
-
-     Browser | Outcome | Pass/Fail 
-     --- | --- | ---
-     Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
-     Safari | No appearance, responsiveness nor functionality issues. | Pass
-     Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
-     Firefox | No appearance, responsiveness nor functionality issues. | Pass
-     
- * Device compatibility
-
-     Device | Outcome | Pass/Fail
-    --- | --- | ---
-    Laptop | No appearance, responsiveness nor functionality issues. | Pass
-    ipad mini | No appearance, responsiveness nor functionality issues. | Pass
-    Lenovo M1 Tab | No appearance, responsiveness nor functionality issues. | Pass
-    Samsung s20 | No appearance, responsiveness nor functionality issues. | Pass
-    iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
-
+---
 ## Deployment
  
  ### Github
@@ -169,7 +161,6 @@ This website was published using GitHub Pages.
 - [Spock](https://images.app.goo.gl/TCa5tv3ZtSzBai3S9)
 
 
-## Content
-- [Russo One - Google Font](https://fonts.google.com/specimen/Russo+One?query=Russo+)
 
-- [Acme - Google Font](https://fonts.google.com/specimen/Acme?query=acme)
+
+
