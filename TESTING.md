@@ -1,11 +1,19 @@
 <img src="markdown-demo/MultiDeviceMockup.jpeg"/>
 
+---
+
+:desktop_computer: [Live Website] (https://eleanorbucke21.github.io/spock-rock-paper-sissors/)
+
+:open_file_folder: [Github Repository] (https://github.com/eleanorbucke21/spock-rock-paper-sissors)
+
+---
+
 ## TABLE OF CONTENTS
 
 * [Automated Testing and Validation](#automated-testing-and-validation)
     * [HTML Validation](#html-validation)
     * [CSS Validation](#css-validation)
-    * [Lighthouse Report](#lighthouse-report)
+    * [Lighthouse](#lighthouse)
     * [Responsiveness](#responsiveness) 
 * [Manual Testing](#manual-testing)
     * [Test Cases](#test-cases)
