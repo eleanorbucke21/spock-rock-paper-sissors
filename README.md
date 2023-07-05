@@ -42,9 +42,11 @@ Spock vaporizes Rock <br>
     * [Languages Used](#languages-used)
     * [Programmes and Applications Used](#programmes-and-applications-used)
 * [Testing](#testing)
+* [Deployment](#deployment)
+    * [Github](#github)
+    * [Gitpod](#gitpod)
 * [Credits](#credits)
-   * [Tutorials](#tutorials)
-   * [Media](#media)
+     * [Media](#media)
 ---
 # User Experience
 
@@ -122,8 +124,8 @@ Please refer to [TESTING.md](./TESTING.md) file for:
 
 ---
 ## Deployment
- 
- ### Github
+--- 
+ ## <u>Github</u>
 
 This website was published using GitHub Pages.
 * Navigate to [GitHub](https://github.com/) and log in.
@@ -137,7 +139,7 @@ This website was published using GitHub Pages.
  
  This website was written on Gitpod.
  
- ### Gitpod
+## <u>Gitpod</u>
 * Navigate to [Gitpod] through [GitHub](https://github.com/), [GitLab](https://www.gitlab.com/) or [Bitbucket](https://bitbucket.org/).
 * In the browser’s address bar, prefix the entire URL with gitpod.io/# and press Enter.
 * For example, gitpod.io/#https://github.com/gitpod-io/website.
@@ -145,8 +147,9 @@ This website was published using GitHub Pages.
 * Sign in with one of the listed providers and let the workspace start up.
 * Congratulations, you have started your first of many ephemeral developer environments!
 
+---
 ## Credits ##
-
+---
 ## Tutorials
 
 - Tutorial on popup buttons [popup Buttons](https://www.w3schools.com/howto/howto_js_popup.asp)
