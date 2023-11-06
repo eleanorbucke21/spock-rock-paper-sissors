@@ -19,9 +19,9 @@ Spock vaporizes Rock <br>
 
 --- 
 
-:desktop_computer: [Live Website] (https://eleanorbucke21.github.io/spock-rock-paper-sissors/)
+:desktop_computer: [Live Website](https://eleanorbucke21.github.io/spock-rock-paper-sissors/)
 
-:open_file_folder: [Github Repository] (https://github.com/eleanorbucke21/spock-rock-paper-sissors)
+:open_file_folder: [Github Repository](https://github.com/eleanorbucke21/spock-rock-paper-sissors)
 
 ---
 
